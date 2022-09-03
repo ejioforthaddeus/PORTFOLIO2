@@ -62,6 +62,20 @@
   --color-grey-5: #110202;
   --color-grey-6: #12181b;
 }
+.blue-mode{
+  
+  --color-primary: #04010e;
+  --color-secondary:rgb(4, 4, 119);
+  --color-white: #454e56;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #6c7983;
+  --color-grey-2: #6c7983;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #030211;
+  --color-grey-6: #12181b;
+}
 
 body {
   background-color: var(--color-primary);
@@ -152,7 +166,7 @@ section {
   color: var(--color-white);
 }
 .theme-btn2 {
-  top: 12%;
+  top: 22%;
   right: 3%;
   width: 70px;
   height: 70px;
@@ -167,7 +181,22 @@ section {
   transition: all 0.1s ease-in-out;
 }
 .theme-btn3 {
-  top: 18%;
+  top: 16%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+.theme-btn4 {
+  top: 9%;
   right: 3%;
   width: 70px;
   height: 70px;
@@ -182,9 +211,8 @@ section {
   transition: all 0.1s ease-in-out;
 }
 
-
 .theme-btn {
-  top: 5%;
+  top: 2%;
   right: 3%;
   width: 70px;
   height: 70px;
@@ -207,6 +235,10 @@ section {
 .theme-btn3:active {
   transform: translateY(-3px);
 }
+
+.theme-btn4:active {
+  transform: translateY(-3px);
+}
 .theme-btn i {
   font-size: 1.4rem;
   color: var(--color-grey-2);
@@ -218,6 +250,11 @@ section {
   pointer-events: none;
 }
 .theme-btn3 i {
+  font-size: 1.4rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
+.theme-btn4 i {
   font-size: 1.4rem;
   color: var(--color-grey-2);
   pointer-events: none;
@@ -775,19 +812,24 @@ section {
   }
 
   .theme-btn {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
   .theme-btn2 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
   .theme-btn3 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
+  .theme-btn4 {
+    width: 40px;
+    height: 40px;
+  }
+
 
   .header-content {
     grid-template-columns: repeat(1, 1fr);
