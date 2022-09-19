@@ -99,6 +99,7 @@ header {
   padding: 0 !important;
 }
 
+
 section {
   min-height: 100vh;
   width: 100%;
@@ -1086,6 +1087,7 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+
 }
 
 /*# sourceMappingURL=styles.css.map */
